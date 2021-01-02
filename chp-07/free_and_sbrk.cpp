@@ -2,8 +2,7 @@
 
 #define MAX_ALLOCS 1000000
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     char *ptr[MAX_ALLOCS];
     int freeStep, freeMin, freeMax, blockSize, numAllocs, j;
