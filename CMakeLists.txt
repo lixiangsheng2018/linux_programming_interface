@@ -4,7 +4,7 @@ project(linux-programming-interface LANGUAGES C CXX)
 
 SET(CMAKE_BUILD_TYPE "Debug")
 #set(CMAKE_VERBOSE_MAKEFILE ON)
-add_compile_options(-std=c++11)
+#add_compile_options(-std=c++11)
 
 
 include_directories(lib)
